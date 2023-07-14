@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
+    <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+    <!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PlanetReactor</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <!-- Display name -->
+    <ApplicationTitle>Planet</ApplicationTitle>
+    <!-- App Identifier -->
+    <ApplicationId>com.companyname.planetreactor</ApplicationId>
+    <ApplicationIdGuid>25f39401-8c74-4bc9-abeb-61c13bdb1fd7</ApplicationIdGuid>
+    <!-- Versions -->
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1</ApplicationVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
+    <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- App Icon -->
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#191932" />
+    <!-- Splash Screen -->
+    <MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#191932" BaseSize="128,128" />
+    <!-- Images -->
+    <MauiImage Include="Resources\Images\*" />
+    <!-- Custom Fonts -->
+    <MauiFont Include="Resources\Fonts\*" />
+    <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+    <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
+    <None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
+    <None Remove="Resources\Fonts\Montserrat-SemiBold.ttf" />
+    <None Remove="Resources\Images\dotnet_bot.svg" />
+    <None Remove="Resources\Images\earth.svg" />
+    <None Remove="Resources\Images\imgback.png" />
+    <None Remove="Resources\Images\imgexplore.png" />
+    <None Remove="Resources\Images\imgfavorite.png" />
+    <None Remove="Resources\Images\imgmenu.png" />
+    <None Remove="Resources\Images\imgprofile.png" />
+    <None Remove="Resources\Images\imgsearch.png" />
+    <None Remove="Resources\Images\jupiter.svg" />
+    <None Remove="Resources\Images\mars.svg" />
+    <None Remove="Resources\Images\mercury.svg" />
+    <None Remove="Resources\Images\neptune.svg" />
+    <None Remove="Resources\Images\phoenix.jpg" />
+    <None Remove="Resources\Images\saturn.svg" />
+    <None Remove="Resources\Images\uranus.svg" />
+    <None Remove="Resources\Images\venus.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Reactor.Maui" Version="1.0.131" />
+    <PackageReference Include="Reactor.Maui.Canvas" Version="1.0.131" />
+    <PackageReference Include="Reactor.Maui.ScaffoldGenerator" Version="1.0.131" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>

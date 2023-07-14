@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\earth.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\earth@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\earth@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\jupiter.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\jupiter@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\jupiter@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\mars.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\mars@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\mars@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\mercury.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\mercury@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\mercury@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\neptune.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\neptune@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\neptune@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\imgback.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\imgexplore.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\imgfavorite.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\imgmenu.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\imgprofile.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\imgsearch.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\phoenix.jpg" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\saturn.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\saturn@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\saturn@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\uranus.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\uranus@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\uranus@3x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\venus.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\venus@2x.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\PlanetReactor\PlanetReactor\obj\Release\net7.0-maccatalyst\resizetizer\r\venus@3x.png" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\Montserrat-Bold.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\Montserrat-Medium.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\Montserrat-SemiBold.ttf" />
+  </ItemGroup>
+</Project>

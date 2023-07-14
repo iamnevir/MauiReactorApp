@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_01.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_02.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_03.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_04.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_05.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_06.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_07.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_08.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_09.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_10.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_11.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_12.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_13.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_14.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_15.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_16.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_17.png" />
+    <BundleResource Include="C:\Users\trick\source\repos\MauiSlanted\MauiSlanted\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\nft_art_18.png" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>
